@@ -46,7 +46,8 @@ FSNode *get_children(const FSNode *parent)
 	return (parent->first_child);
 }
 
-FSNode *get_sibling(const FSNode *node) {
+FSNode *get_sibling(const FSNode *node)
+{
 	if (!node)
 		return (0);
 	return node->next_sibling;

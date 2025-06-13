@@ -11,7 +11,7 @@ typedef enum {PLUSMINUS, STANDARD, PASSFAIL} GradeMapperType;
 
 typedef struct GradeMapper
 {
-    GradeMapperType mapper;
+    GradeMapperType mapper_type;
 
 } GradeMapper;
 

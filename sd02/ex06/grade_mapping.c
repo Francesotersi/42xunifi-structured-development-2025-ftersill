@@ -57,7 +57,7 @@ void passfail(const int *scores, int size, const char **mapped_grades)
 	}
 }
 
-// ongni string adella matrice mapped_grades deve essere allocata con spazio sufficiente
+// ongni stringa della matrice mapped_grades deve essere allocata con spazio sufficiente
 // per contenere il voto e il terminatore null (ad esempio, 3 caratteri per il voto con 
 // segno più o meno, o 2 caratteri per il voto standard o pass/fail).
 void map_scores(const int *scores, int size, GradeMapper mapper, const char **mapped_grades)

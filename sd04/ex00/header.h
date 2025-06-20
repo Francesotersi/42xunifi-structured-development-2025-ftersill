@@ -4,6 +4,9 @@
 #define MAX_BOOKS 1000
 #define MAX_LINE_LENGTH 256
 
+#include "display.h"
+#include "library.h"
+
 typedef struct {
     int id;
     char *title;

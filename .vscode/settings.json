@@ -1,9 +1,0 @@
-{
-    "files.associations": {
-        "cstddef": "cpp",
-        "cmath": "cpp",
-        "limits": "cpp",
-        "type_traits": "cpp",
-        "unistd.h": "c"
-    }
-}

@@ -38,8 +38,6 @@ int	has_character(const char *str, char *to_check)
 	return (1);
 }
 
-#include <unistd.h>
-
 int ft_strcmp(const char *s1, const char *s2) 
 {
 	while (*s1 && (*s1 == *s2))
